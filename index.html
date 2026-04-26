@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetroSkin Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+<title>MetroSkin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;text-align:center;background:#f5f5f5;margin:0}
+header{background:#e53935;color:white;padding:30px}
+.product{background:white;margin:20px auto;padding:20px;width:250px;border-radius:10px}
+button{background:#e53935;color:white;border:none;padding:10px 15px;border-radius:5px}
+</style>
 </head>
-<body>
-    <header>
-        <h1>Welcome to MetroSkin</h1>
-        <p>Your ultimate destination for stunning skins!</p>
-    </header>
 
-    <main>
-        <section class="product-cards">
-            <div class="product-card">
-                <h2>Anime Skin</h2>
-                <p>Price: $15.00</p>
-                <button onclick="order('Anime Skin')">Order via WhatsApp</button>
-            </div>
-            <div class="product-card">
-                <h2>Minimal Black Skin</h2>
-                <p>Price: $10.00</p>
-                <button onclick="order('Minimal Black Skin')">Order via WhatsApp</button>
-            </div>
-            <div class="product-card">
-                <h2>Delhi Skyline Skin</h2>
-                <p>Price: $12.00</p>
-                <button onclick="order('Delhi Skyline Skin')">Order via WhatsApp</button>
-            </div>
-        </section>
-    </main>
-    <script src="script.js"></script>
+<body>
+
+<header>
+<h1>MetroSkin</h1>
+<p>Tap in Style 🚇</p>
+</header>
+
+<div class="product">
+<h3>Anime Metro Skin</h3>
+<p>₹99</p>
+<button onclick="window.location.href='https://wa.me/91YOURNUMBER'">
+Order on WhatsApp
+</button>
+</div>
+
+<div class="product">
+<h3>Minimal Black Skin</h3>
+<p>₹99</p>
+<button onclick="window.location.href='https://wa.me/91YOURNUMBER'">
+Order on WhatsApp
+</button>
+</div>
+
 </body>
 </html>
