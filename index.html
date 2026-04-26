@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroSkin Landing Page</title>
     <link rel="stylesheet" href="styles.css">
-    <title>MetroSkin</title>
 </head>
 <body>
     <header>
         <h1>Welcome to MetroSkin</h1>
+        <p>Your ultimate destination for stunning skins!</p>
     </header>
+
     <main>
-        <p>Your content goes here.</p>
+        <section class="product-cards">
+            <div class="product-card">
+                <h2>Anime Skin</h2>
+                <p>Price: $15.00</p>
+                <button onclick="order('Anime Skin')">Order via WhatsApp</button>
+            </div>
+            <div class="product-card">
+                <h2>Minimal Black Skin</h2>
+                <p>Price: $10.00</p>
+                <button onclick="order('Minimal Black Skin')">Order via WhatsApp</button>
+            </div>
+            <div class="product-card">
+                <h2>Delhi Skyline Skin</h2>
+                <p>Price: $12.00</p>
+                <button onclick="order('Delhi Skyline Skin')">Order via WhatsApp</button>
+            </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
