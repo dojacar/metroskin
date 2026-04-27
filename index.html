@@ -1,100 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>TapSkin</title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-
-body{
-font-family: Arial;
-margin:0;
-background:#ffe4ef;
-text-align:center;
-}
-
-header{
-background:#ff4fa3;
-color:white;
-padding:40px;
-}
-
-h1{
-margin:0;
-font-size:40px;
-}
-
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-margin:40px;
-}
-
-.card{
-background:white;
-width:240px;
-margin:15px;
-border-radius:12px;
-padding:15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-}
-
-.card img{
-width:100%;
-border-radius:8px;
-}
-
-.price{
-font-size:18px;
-font-weight:bold;
-margin:8px 0;
-}
-
-button{
-background:#ff4fa3;
-color:white;
-border:none;
-padding:10px 16px;
-border-radius:6px;
-cursor:pointer;
-}
-
-button:hover{
-background:#ff2b8a;
-}
-
-footer{
-margin-top:50px;
-padding:20px;
-background:#ff4fa3;
-color:white;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroSkin - Tap in Style</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">MetroSkin</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Tap in Style</h1>
+                <p>Transform your metro card with stunning custom skins</p>
+                <button class="cta-button">Shop Now</button>
+            </div>
+            <div class="hero-image">
+                <div class="card-mockup"></div>
+            </div>
+        </div>
+    </section>
 
-<h1>TapSkin</h1>
-<p>Drip your Metro Card 💳</p>
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Collections</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Anime Skin</h3>
+                    <p>Vibrant anime-inspired designs for your metro card</p>
+                    <div class="price">₹99</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Minimal Black</h3>
+                    <p>Sleek and sophisticated minimalist design</p>
+                    <div class="price">₹99</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Delhi Skyline</h3>
+                    <p>Iconic Delhi landmarks on your metro card</p>
+                    <div class="price">₹129</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Galaxy Glow</h3>
+                    <p>Cosmic design with mesmerizing patterns</p>
+                    <div class="price">₹119</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Nature Vibes</h3>
+                    <p>Eco-friendly botanical inspired skins</p>
+                    <div class="price">₹109</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image"></div>
+                    <h3>Custom Design</h3>
+                    <p>Create your own unique metro card skin</p>
+                    <div class="price">₹149</div>
+                    <button class="btn-primary">Order on WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</header>
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose MetroSkin?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">✨</div>
+                    <h3>Premium Quality</h3>
+                    <p>High-quality materials that last</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your skin within 24-48 hours</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Custom Designs</h3>
+                    <p>Personalized skins made just for you</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💰</div>
+                    <h3>Affordable Prices</h3>
+                    <p>Premium quality at budget-friendly rates</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Love my new metro card! The quality is amazing and it arrived so quickly."</p>
+                    <div class="author">- Priya S.</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"The custom design process was so easy. Highly recommended!"</p>
+                    <div class="author">- Rahul M.</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best way to personalize my metro card. Will definitely order again!"</p>
+                    <div class="author">- Anjali K.</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="products">
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>How long does delivery take?</h3>
+                    <p>We deliver within 24-48 hours in Delhi NCR. Other cities may take 3-5 business days.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I customize my design?</h3>
+                    <p>Yes! We offer fully customizable skins. Contact us via WhatsApp with your design ideas.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What's the durability of the skins?</h3>
+                    <p>Our skins are made with premium materials and last for 6+ months with proper care.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer bulk orders?</h3>
+                    <p>Absolutely! Contact us for wholesale pricing and bulk order discounts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<img src="https://via.placeholder.com/240x150">
-<h3>Fight Club Skin</h3>
-<p class="price">₹99</p>
-<button onclick="window.location.href='https://wa.me/91YOURNUMBER'">
-Order
-</button>
-</div>
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Have questions? Reach out to us on WhatsApp</p>
+            <button class="cta-button">Contact via WhatsApp</button>
+        </div>
+    </section>
 
-<div class="card">
-<img
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 MetroSkin. All rights reserved.</p>
+            <p>Tap in Style 🚇</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
